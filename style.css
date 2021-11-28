@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap');
+
+:root {
+    --secondary: #00ffb3;
+    --primary: #00aaff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    align-items: center;
+}
+
+body {
+    background-image: URL('https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2019/04/mejores-plantillas-de-portfolio-de-wordpress.jpg');
+    background-size: cover;
+}
+
+header div {
+    display: flex;
+    padding: 1em;
+    background-color: #FFFFFF;
+
+}
+
+/* Presentacion */
+.presentacion {
+    justify-content: center;
+    background-color: rgba(148, 148, 148, 0.5);
+    padding: 2em;
+    font-size: 1.25em;
+    text-align: center;
+    
+}
+
+.presentacion a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Desde HTML */
+.contenedor {
+    width: 300px;
+    margin: 3% 5%;
+    font-size: 1.05em;
+}
+
+/* Desde JS */
+.item {
+    /* padding: 6em;
+    background-color: rgba(145, 186, 255, 0.80);
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border-radius: 15px; */
+    padding: 1em;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    border-radius: 15px;
+    transition: all 100ms ease;
+}
+
+.item:hover {
+    background-color: turquoise;
+    text-align: center;
+}
+
+p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.animado {
+    z-index: 20;
+    transition: all 200ms ease;
+}
+
+.animado:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px lightgrey;
+    transform: translate(50px);
+}
+
+.image {
+    width: 100%;
+}
+
+
+/* Bienvenidos */
+.wrapper {
+    height: 15em;
+    color: #ffffff;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing-demo {
+    width: 28ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.75em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    20% {
+        border-color: transparent
+    }
+}
+
+.aviso {
+    color: #ffffff;
+}

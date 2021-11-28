@@ -1,0 +1,41 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+header {
+    background-color: #E5E5E5;
+}
+.parte-batman {
+    position: relative;
+    padding: 21px 580px;
+}
+h1 {
+    background-color: #C4C4C4;
+    text-align: center;
+    font-size: 35px;
+    color: #005677;
+}
+main { 
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+h2 {
+    background-color: #C4C4C4;
+    font-size: 20px;
+    color: #005677;
+    padding: 6px auto 7px 9px;
+}
+li {
+    position: relative;
+    left: 49px;
+}
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+footer {
+    background-color: #005677;
+    text-align: center;
+    color: white;
+}

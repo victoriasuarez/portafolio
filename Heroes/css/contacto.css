@@ -1,0 +1,102 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin:0;
+}
+
+body h2{
+    margin:0;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #1CD1B0;
+    font-weight: 300;
+}
+
+nav{
+    display: flex;
+    height: 30px;
+    background-color: #001d2d;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+ul li a {
+    margin: 30px;
+    text-decoration: white;
+    color: #fff;
+}
+
+
+.header_ {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    background-color: #00669F;
+    color: #fff;
+    padding: 5px;
+    z-index: 2;
+    font-weight: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    margin: 5% auto;
+    padding: 45px;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#nombre {
+    border: 1.54px solid;
+    padding: 5px 60px;
+}
+
+#email {
+    border: 1.54px solid;
+    padding: 5px 60px;
+}
+
+#comentarios {
+    border: 1.54px solid;
+    padding: 5px 60px 120px;
+}
+
+div button {
+    display: inline-block;
+}
+
+#boton-resetear {
+    margin-top: 1rem;
+    border-radius: 23px;
+    background-color: #888888;
+    padding: 8px 35px;
+    color: #f3f3f3;
+    font-size: 15px;
+}
+#boton-enviar {
+    border-radius: 23px;
+    background-color: #1CD1B0;
+    padding: 8px 50px;
+    font-size: 15px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #00669F;
+    color: #FFF9F9;
+    padding: 5px 15px;
+}
