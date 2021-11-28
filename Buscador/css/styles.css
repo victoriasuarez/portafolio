@@ -101,3 +101,9 @@ footer {
   background-color: var(--app-grey);
   color: rgb(138, 138, 138);
 }
+
+@media (max-width: 460px) {
+  form input {
+    width: 250px;
+  }
+}
