@@ -57,6 +57,7 @@ window.addEventListener('load', function () {
         const nodoTareasTerminadas = document.querySelector('.tareas-terminadas');
         const nodoTareasPendientes = document.querySelector('.tareas-pendientes');
 
+        // para que inicialize y dentro se integre el template literal que se encuentra en el forEach
         nodoTareasPendientes.innerHTML = "";
         nodoTareasTerminadas.innerHTML = "";
 

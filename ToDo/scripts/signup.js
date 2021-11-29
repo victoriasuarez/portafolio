@@ -44,7 +44,7 @@ function validacionNoVacio(texto) {
         resultado = false;
     }
 
-    return resultado
+    return resultado;
 }
 
 function validacionAmbasContasenias(constrasenia1, contrasenia2) {
