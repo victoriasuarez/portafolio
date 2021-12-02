@@ -40,13 +40,13 @@ section div {
 }
 
 ul {
-    margin: 2%;
+    margin: 2% 1.5%;
 }
 
 li {
     position: relative;
     left: 2em;
-    margin: 1% 2%;
+    margin: 1% 0;
 }
 
 
@@ -56,7 +56,7 @@ span {
 }
 
 dl {
-    margin: 2% 5%;
+    margin: 2% 2%;
 
 }
 

@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+
+:root {
+  --secondary: #370075;
+  --primary: #ff6262;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +14,7 @@
 body {
   display: flex;
   min-height: 100vh;
-  background-color: blueviolet;
+  background-image: linear-gradient(250deg, var(--secondary)0%, var(--primary) 100%);
 }
 
 form {
@@ -16,7 +22,7 @@ form {
   width: 30vw;
   height: fit-content;
   padding: 2em;
-  margin: 4em 35vw;
+  margin: 2em 30vw;
   border-radius: .2em;
 }
 
@@ -58,21 +64,35 @@ fieldset label {
   width: 9em;
 }
 
+
+
 input[type=checkbox] {
   margin-right: 1em;
-  margin-bottom: .7em;
+  margin-bottom: .6em;
+}
+
+input:hover {
+  cursor: pointer;
 }
 
 button {
-  background-color: blueviolet;
-  color: white;
+  background-color: rgb(54, 0, 105);
+  color: #ffffff;
   font-size: 1.1em;
   padding: .5em 1em;
   border: none;
   margin-top: 1em;
 }
 
+button:hover {
+  background-color: var(--primary);
+  cursor: pointer;
+  color: #000000;
+}
+
 button:disabled {
   opacity: .5;
   cursor: not-allowed;
 }
+
+
