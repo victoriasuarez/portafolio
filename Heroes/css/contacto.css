@@ -36,7 +36,6 @@ ul li a {
 
 .header_ {
     display: flex;
-    position: sticky;
     align-items: center;
     background-color: #00669F;
     color: #fff;
@@ -61,8 +60,8 @@ h1 {
 }
 
 #nombre {
-    border: 1.54px solid;
-    padding: 5px 60px;
+    border: 1px solid;
+    padding: 0.5em 9em 0.5em 1em;
 }
 
 #email {

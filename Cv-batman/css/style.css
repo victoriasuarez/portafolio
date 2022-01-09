@@ -69,6 +69,7 @@ footer div {
     background-color: #005677;
     color: white;
     padding: 1em;
+    justify-content: center;
 }
 
 h3, img {
