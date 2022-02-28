@@ -13,4 +13,11 @@ const listaHeroes = [
         imgHeroe: "./img/harley.png" ,
         imgFondoHeroe: "./img/colores.png"
     },
+    {
+        nombreHeroe: "HOMBRE PAY",
+        descripcionHeroe: "Pie Man es un superheroe ficticio de la serie animada Los Simpsons. Es tambien un alter-ego de Homero Simpson.",
+        linkMasInfo: "https://simpsons.fandom.com/es/wiki/Pie_Man",
+        imgHeroe: "./img/png_homero.png",
+        imgFondoHeroe: "./img/png_pay_homero.png",
+    },
 ]

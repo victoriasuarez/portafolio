@@ -15,6 +15,7 @@ nav{
     background-color: #001d2d;
     justify-content: flex-end;
     align-items: center;
+    
 }
 
 ul{
@@ -22,6 +23,7 @@ ul{
 }
 
 ul li a {
+    margin: 30px;
     text-decoration: white;
     color: #fff;
 }
@@ -53,6 +55,7 @@ main {
     z-index: 1;
     left: 30%;
     top: 25%;
+
 }
 
 article div{
@@ -97,11 +100,12 @@ p{
 
 
 footer{
-    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     background-color: #00669F;
     color: #FFF9F9;
-    padding: 5px 15px;
+    padding: 1em;
 }
 
 article h3{
@@ -114,3 +118,6 @@ body{
     margin:0;
 }
 
+article div {
+    border-radius: 1em;
+}

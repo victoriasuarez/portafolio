@@ -52,7 +52,6 @@ main {
     font-size: 13px;
     margin: 5% auto;
     padding: 45px;
-    max-width: 400px;
 }
 
 h1 {
@@ -60,24 +59,34 @@ h1 {
     font-weight: 700;
 }
 
+.registro {
+    display: flex;
+    flex-direction: column;
+}
+
 #nombre {
     border: 1.54px solid;
-    padding: 5px 60px;
+    padding: 0.5em 9em 0.5em 1em;
+    border-radius: 1em;
 }
 
 #email {
     border: 1.54px solid;
-    padding: 5px 60px;
+    padding: 5px 9em 0.5em 1em;
+    border-radius: 1em;
 }
 
 #password {
     border: 1.54px solid;
-    padding: 5px 60px;
+    padding: 5px 9em 0.5em 1em;
+    border-radius: 1em;
 }
 
 #opciones {
     border: 1.54px solid;
-    padding: 5px 95px;
+    padding: 5px 9em 0.5em 1em;
+    border-radius: 1em;
+    margin-top: 1em;
 }
 
 #boton-resetear {

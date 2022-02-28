@@ -65,13 +65,14 @@ h1 {
 
 #email {
     border: 1.54px solid;
-    padding: 5px 60px;
-    
+    padding: 0.5em 9em 0.5em 1em;
+    border-radius: 1em;
 }
 
 #password {
     border: 1.54px solid;
-    padding: 5px 60px;
+    padding: 0.5em 9em 0.5em 1em;
+    border-radius: 1em;
 }
 
 
